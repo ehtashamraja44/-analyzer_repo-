@@ -1,14 +1,12 @@
-# Resume AI Analyzer
+# Data Analyzer API
 
-FastAPI-based app that analyzes resumes against job descriptions using AI/ML.
+Features:
+✅ Upload CSV/PDF files
+✅ PDF to CSV automatic conversion 
+✅ AI-powered data analysis: row/column count, missing values, stats
+✅ Top insights: Max, Min, Avg, Most frequent values
+✅ Data quality check: duplicates + null values
+✅ Column-wise counting
 
-## Features
-- Upload resume PDF/DOCX
-- Paste job description 
-- Get match score + keyword analysis
-- Built with FastAPI + Python
-
-## Setup & Run
-```bash
-pip install -r requirements.txt
-uvicorn main:app --reload
+Run: python main.py
+Docs: http://localhost:8000/docs
